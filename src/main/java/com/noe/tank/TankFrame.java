@@ -31,6 +31,14 @@ public class TankFrame extends Frame {
         });
     }
 
+
+    Image offScreenImage = null;
+    public void update(Graphics g) {
+        if(offScreenImage == null) {
+
+        }
+    }
+
     public void paint(Graphics g) {
         System.out.println("ff");
         myTank.paint(g);
